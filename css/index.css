@@ -7,12 +7,12 @@ body {
     margin: auto;
 }
 
-header nav{
+header nav {
     display: flex;
     flex:1;
     margin: 0 15px;
 }
-header nav a{
+header nav a {
     margin-right: 3%;
     text-decoration: none;
     color: black;
@@ -34,11 +34,9 @@ header nav a:hover {
 .banner div h1 {
     background-color: white;
     padding: 1px 5px;
-    box-shadow: 1px 10px 10px 1px;
     display: flex;
     flex-wrap: wrap;
 }
-
 
 
     
