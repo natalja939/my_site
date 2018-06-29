@@ -2,9 +2,6 @@
 :root{
     font-family: 'Crimson Text', serif;
 }
-
-
-
 body {
     max-width: 980px;
     margin: auto;
@@ -23,46 +20,25 @@ header nav a{
 header nav a:hover {
     text-decoration: underline;
 }
-div img {
+.banner img {
         height: 500px;
         width: 980px;
         background-position: center;
         background-size: cover;
-    }
-.main {
-        color: white;
-    }
-    div.main h1 {
-        position: absolute;
-        top: 100px;
-        right: 650px;
-        width: 300px;
-        height: 200px;
-        font-size: 2rem;
-    }
-    div.main h2 {
-        position: absolute;
-        top: 150px;
-        right: 600px;
-        width: 300px;
-        height: 200px;
-        font-size: 2rem;
-    }
-    div.main p {
-        position: absolute;
-        top: 450px;
-        right: 50px;
-        width: 300px;
-        height: 200px;
-    }
-    article img {
-       float: right;
-       margin: 0 0 1em 1em;
-   }
-.manicure {
-    max-width: 480px;
 }
-.pedicure {
-    max-width: 480px;
-    }
+.banner div {
+    align-items: center;
+    justify-content: center;
+    max-width: 340px;
+}
+.banner div h1 {
+    background-color: white;
+    padding: 1px 5px;
+    box-shadow: 1px 10px 10px 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
     
