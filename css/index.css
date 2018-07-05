@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 :root{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', sans-serif;
 }
 body {
     max-width: 980px;
@@ -26,17 +26,18 @@ header nav a:hover {
         background-position: center;
         background-size: cover;
 }
-.banner div {
-    align-items: center;
-    justify-content: center;
-    max-width: 340px;
+
+.name {
+    position: relative;
+    top: -450px;
+    left: 40px;
 }
-.banner div h1 {
-    background-color: white;
-    padding: 1px 5px;
-    display: flex;
-    flex-wrap: wrap;
+.phone {
+    position: relative;
+    top: -200px;
+    left: 700px;
 }
+
 
 
     
